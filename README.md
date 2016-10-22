@@ -1,7 +1,7 @@
-##Welcome to the Source!##
+##Fibonacci's Code: Recursion and Memoization for Ruby Beginners##
 
 
-####A method for basic Fibonacci term calculation:####
+__A method for basic Fibonacci term calculation:__
 
 ```language-ruby
 def fibonacci(n)
@@ -14,8 +14,8 @@ end
 ```
 
 
-####The Bad One; or, two separate methods for fibonacci calculation####
-and fibonacci-value storage:
+__The Bad One; or, two separate methods for fibonacci calculation
+and fibonacci-value storage:__
 
 ```language-ruby
 def fibonacci(n)																	
@@ -31,7 +31,7 @@ end
 ```
 
 
-####The Good One; or, a method that memoizes Fibonacci values as they are calculated:####
+__The Good One; or, a method that memoizes Fibonacci values as they are calculated:__
 
 ```language-ruby
 @fib_hash = {}
